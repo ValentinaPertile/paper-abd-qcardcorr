@@ -1,0 +1,5 @@
+config,consultas,planes_distintos_de_pg,tiempo_total_s,aceleracion_mediana,mas_rapidas_10pct,mas_lentas_10pct,variacion_media_repeticiones
+clasico_s1,70,13,949.047,1.000,10,5,0.048
+cuantico_s1,70,4,1067.045,1.003,2,3,0.050
+pg,70,0,1074.474,1.000,0,0,0.056
+reales,70,20,914.818,1.012,15,4,0.058

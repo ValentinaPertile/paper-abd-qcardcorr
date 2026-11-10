@@ -1,0 +1,3 @@
+Correlación entre la mejora del q-error de la consulta completa y la aceleración
+cuantico_s1: rho de Spearman = 0.045 (p = 0.712, n = 70)
+clasico_s1: rho de Spearman = 0.068 (p = 0.573, n = 70)

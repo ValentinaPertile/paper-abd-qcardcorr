@@ -1,0 +1,19 @@
+{
+ "a": {
+  "mediana": 2.04888624888378,
+  "p95": 65.46474803567143,
+  "fmax": 1.0476672228234711,
+  "ceros": 0.020454545454545454,
+  "pg_mediana": 2.070699809694986
+ },
+ "b": {
+  "mediana": 1.8444874603059864,
+  "p95": 54.44999999999989,
+  "fmax": 2.2639226623090685,
+  "ceros": 0.011363636363636364,
+  "pg_mediana": 2.070699809694986
+ },
+ "p300": 3,
+ "p2000": 9,
+ "texto": "Para acotar esta amenaza se repitió el entrenamiento de QCardCorr con 2000 iteraciones, sin separar las consultas de prueba, que es el caso más favorable para el modelo. Las correcciones fueron mayores, con factores de hasta 2,26, la mediana del q-error de las consultas completas bajó de 2,05 a 1,84 y el plan cambió en 9 consultas, frente a 3 con 300 iteraciones. Esos cambios, sin embargo, no mejoraron el resultado de forma neta. La consulta 57 se aceleró igual que con la red clásica, pero la 42 y la 65 se demoraron, y en la consulta 59 el nuevo plan generó un resultado intermedio de unos 365 millones de filas que agotó los 11 GB de espacio temporal disponibles en disco y no llegó a completarse. Esto ocurrió porque el modelo corrigió algunos subplanes de esa consulta y dejó otros, como el de la consulta completa, subestimados hasta 29 veces. Un entrenamiento más largo cambia, entonces, la magnitud de las correcciones, pero no asegura mejores planes, y la comparación entre ambos modelos vale para la configuración de entrenamiento usada."
+}

@@ -1,0 +1,8 @@
+Model name:                              Intel(R) Core(TM) i5-10210U CPU @ 1.60GHz
+
+               total        used        free      shared  buff/cache   available
+Mem:           3.7Gi       2.3Gi        59Mi        18Mi       1.4Gi       1.3Gi
+Swap:          8.0Gi       0.0Ki       8.0Gi
+
+psql (PostgreSQL) 14.24 (Ubuntu 14.24-0ubuntu0.22.04.1)
+Description:	Ubuntu 22.04.5 LTS
